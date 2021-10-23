@@ -23,4 +23,7 @@ Pillow, verson 8.2.0
 A requirement.txt file is included so you can build a python environment using
 pip install -r requirements.txt  
 
+ to run use
+
+python3 fixequi.py input_image output_image 
 
