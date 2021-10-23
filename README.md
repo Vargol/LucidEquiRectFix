@@ -3,7 +3,7 @@ A quick fix for Lucidcam images before they fixed the alignment issues.
 
 
 Early firmware versions for the Lucid VR180 camera had issues where the images where not quite alignmed correctly,
-requiring the user to tilt there head to see the 3D image instead of two not quite overlapping images.
+requiring the user to tilt their head to see the 3D image instead of two not quite overlapping images.
 
 This script is a quick hack to correct the issues by rotating the right eye image as projected on a hemisphere.
 
@@ -11,7 +11,7 @@ to change the correction you need to edit this line...
 
 in_corrections.value = (math.radians(2.0), 0.0, 0.0);
 
-this rotates the image by 2.0 degrees on the x axis, ithe second value would be the y axis, and finally the z axis.
+this rotates the image by 2.0 degrees on the x axis, the second value would be the y axis, and finally the z axis.
 
 To use this script you will need a python environment with the following dependancies installed
 
